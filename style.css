@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media.istockphoto.com/id/1418684524/photo/mirror-plate-pattern.jpg?s=612x612&w=0&k=20&c=Xr39onngzPcXYjcyWcLWzKTKL3A6dF_80LNV_3z2Fs4=)
+    
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#text{
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding: 0 10vw;
+   color: white;
+}
+#textright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#textright p{
+    font-size: 10px;
+    width: 40%;
+}
+
+#textright i{
+    color: white;
+}
+#text h1{
+    font-weight: 600;
+    font-size:5vw;
+
+}
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: paleturquoise;
+}
+
+#bone{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/1154341677/photo/industry-and-technology-concept-industry-4-0.jpg?s=612x612&w=0&k=20&c=UgbGbl1oTYa837cA2UQcteWD3Rt_W1Pzujo_0i9Q82E=);
+    background-size: cover;
+    background-position: center;
+}
+
+#btwo{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/664304856/photo/business-group-working-in-the-office.jpg?s=612x612&w=0&k=20&c=edrQ2jTPWzQ-3mEcI1PjnBqmzZDYm3IQlFetpdJLZCE=);
+    background-size: cover;
+    background-position: center;
+}
+
+#bthree{
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+
+#bthreetop{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1621570168077-befe8b7eab56?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYiUyMGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#bthreebottom{
+    width: 100;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1593720217529-01f0a5d09aed?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2ViJTIwZGV2ZWxvcGVyfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+}
+
+#bfour{
+    width: 30%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/1485919248/photo/smiling-girl-student-wear-wireless-headphone-study-online-with-teacher-happy-young-woman.jpg?s=612x612&w=0&k=20&c=aXmLTYYklSzug5JLInjFjXphogTT6AZGqN7Aad81Gb8=);
+    background-size: cover;
+    background-position: center
+    
+}
